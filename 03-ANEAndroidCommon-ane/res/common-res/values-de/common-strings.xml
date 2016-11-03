@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">Ja</string>
+	<string name="no">Nein</string>
+	<string name="OK">OK</string>
+	<string name="quitQuestion">Willst du das Spiel wirklich beenden?</string>
+	<string name="storagePermission">Bitte erteilen Sie die Berechtigung \"Speicher\", um Samorost 3 auszuführen.</string>
+</resources>

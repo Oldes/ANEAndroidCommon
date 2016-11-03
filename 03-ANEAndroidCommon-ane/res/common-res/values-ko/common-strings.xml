@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">예</string>
+	<string name="no">아니오</string>
+	<string name="OK">확인</string>
+	<string name="quitQuestion">정말로 게임을 종료하시겠습니까?</string>
+	<string name="storagePermission">Samorost 3 실행하려면 \"저장\"권한을 부여하십시오.</string>
+</resources>

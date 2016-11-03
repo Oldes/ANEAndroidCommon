@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">نعم</string>
+	<string name="no">لا</string>
+	<string name="OK">موافق</string>
+	<string name="quitQuestion">هل ترغب حقًا في الخروج من اللعبة؟</string>
+	<string name="storagePermission">يرجى منح \"التخزين\" الإذن لتشغيل Samorost 3.</string>
+</resources>

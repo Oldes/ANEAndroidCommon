@@ -1,0 +1,16 @@
+ar	Arabic	نعم	لا	موافق	هل ترغب حقًا في الخروج من اللعبة؟	يرجى منح "التخزين" الإذن لتشغيل Samorost 3.
+cs	Czech	Ano	Ne	OK	Opravdu chcete ukončit hru?	Ke spuštění Samorostu 3 prosím povolte oprávnění "Úložiště".
+de	German	Ja	Nein	OK	Willst du das Spiel wirklich beenden?	Bitte erteilen Sie die Berechtigung "Speicher", um Samorost 3 auszuführen.
+en	English	Yes	No	OK	Are you sure you want to quit the game?	Please grant "Storage" permission to run Samorost 3.
+es	Spanish	Sí	No	OK	¿Seguro que quieres salir del juego?	Por favor concede permiso "Almacenamiento" para ejecutar Samorost 3.
+fr	French 	Oui	Non	OK	Voulez-vous vraiment quitter le jeu?	Veuillez accorder la autorisation "Stockage" pour exécuter Samorost 3.
+ja	Japanese	はい	いいえ	OK	本当にゲームを終了しますか?	
+ko	Korean	예	아니오	확인	정말로 게임을 종료하시겠습니까?	Samorost 3 실행하려면 "저장"권한을 부여하십시오.
+it	Italian	Sì	No	OK	Sei sicuro di voler interrompere it gioco?	Si prega di concedere l'autorizzazione "Memoria" ("Archivazione") per eseguire Samorost 3.
+pl	Polish	Tak	Nie	OK	Czy na pewno chcesz wyjść z gry?	Należy przyznać uprawniene "Pamięć" na prowadzenie Samorosta 3.
+pt	Portuguese	Sim	Não	OK	Tem certeza que quer sair do jogo?	Por favor conceda "Memória" ("Armazenamento") permissão para executar Samorost 3.
+ru	Russian	Да	Нет	OK	Действительно хочешь покинуть игру?	Пожалуйста, предоставляйте "Память" разрешение на запуск Samorost 3.
+tr	Turkish	Evet	Hayır	Tamam	Oyundan çıkmak istediğinden emin misin?	Samorost 3 çalıştırmak için "Depolama" izin verin.
+zh-rCN	Chinese Simplified	是	否	确定	您确定要退出游戏吗？	为了正常运行银河历险记3，需要您同意游戏获取‘存储’权限。
+zh-rHK	Chinese Traditional	是	否	確定	您確定要結束遊戲嗎？	為了正常運行銀河歷險記3，需要您同意遊戲獲取‘存儲’權限。
+zh-rTW	Chinese Traditional	是	否	確定	您確定要結束遊戲嗎？	為了正常運行銀河歷險記3，需要您同意遊戲獲取‘存儲’權限。

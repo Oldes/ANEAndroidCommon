@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="OK">確定</string>
+	<string name="quitQuestion">您確定要結束遊戲嗎？</string>
+	<string name="storagePermission">為了正常運行銀河歷險記3，需要您同意遊戲獲取‘存儲’權限。</string>
+</resources>

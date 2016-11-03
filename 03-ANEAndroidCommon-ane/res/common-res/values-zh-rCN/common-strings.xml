@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="OK">确定</string>
+	<string name="quitQuestion">您确定要退出游戏吗？</string>
+	<string name="storagePermission">为了正常运行银河历险记3，需要您同意游戏获取‘存储’权限。</string>
+</resources>

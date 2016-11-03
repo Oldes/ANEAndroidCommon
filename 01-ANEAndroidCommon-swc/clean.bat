@@ -1,0 +1,1 @@
+@IF EXIST com.amanitadesign.AndroidCommon.swc DEL com.amanitadesign.AndroidCommon.swc

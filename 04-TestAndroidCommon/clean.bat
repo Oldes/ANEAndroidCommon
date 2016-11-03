@@ -1,0 +1,1 @@
+@IF EXIST .\Build\TestAndroidCommon.apk DEL /F /Q .\Build\TestAndroidCommon.apk

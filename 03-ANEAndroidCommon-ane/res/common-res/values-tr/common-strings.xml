@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">Evet</string>
+	<string name="no">Hayır</string>
+	<string name="OK">Tamam</string>
+	<string name="quitQuestion">Oyundan çıkmak istediğinden emin misin?</string>
+	<string name="storagePermission">Samorost 3 çalıştırmak için \"Depolama\" izin verin.</string>
+</resources>

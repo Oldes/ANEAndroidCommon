@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">Sim</string>
+	<string name="no">Não</string>
+	<string name="OK">OK</string>
+	<string name="quitQuestion">Tem certeza que quer sair do jogo?</string>
+	<string name="storagePermission">Por favor conceda \"Memória\" (\"Armazenamento\") permissão para executar Samorost 3.</string>
+</resources>
