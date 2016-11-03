@@ -15,14 +15,14 @@ foreach line data [
 		]
 		if not exists? dir [make-dir dir]
 		write/binary dir/common-strings.xml rejoin [
-			#{}
+#{} ;-- to force result be a binary so the UTF encoding is not corrupted
 {<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="yes">} sYes {</string>
 	<string name="no">} sNo {</string>
 	<string name="OK">} sOK {</string>
 	<string name="quitQuestion">} sQuit {</string>
-}	either sPerm [rejoin [#{} {	<string name="storagePermission">} sPerm {</string>^/}]][""]
+}	either sPerm [rejoin [{	<string name="storagePermission">} sPerm {</string>^/}]][""]
 {</resources>}
 		]
 	]
