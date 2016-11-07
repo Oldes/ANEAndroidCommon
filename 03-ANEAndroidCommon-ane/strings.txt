@@ -4,7 +4,7 @@ de	German	Ja	Nein	OK	Willst du das Spiel wirklich beenden?	Bitte erteilen Sie di
 en	English	Yes	No	OK	Are you sure you want to quit the game?	Please grant "Storage" permission to run Samorost 3.
 es	Spanish	Sí	No	OK	¿Seguro que quieres salir del juego?	Por favor concede permiso "Almacenamiento" para ejecutar Samorost 3.
 fr	French 	Oui	Non	OK	Voulez-vous vraiment quitter le jeu?	Veuillez accorder la autorisation "Stockage" pour exécuter Samorost 3.
-ja	Japanese	はい	いいえ	OK	本当にゲームを終了しますか?	
+ja	Japanese	はい	いいえ	OK	本当にゲームを終了しますか?	Samorost3をプレイするためにストレージへのアクセス権限を許可して下さい。
 ko	Korean	예	아니오	확인	정말로 게임을 종료하시겠습니까?	Samorost 3 실행하려면 "저장"권한을 부여하십시오.
 it	Italian	Sì	No	OK	Sei sicuro di voler interrompere it gioco?	Si prega di concedere l'autorizzazione "Memoria" ("Archivazione") per eseguire Samorost 3.
 pl	Polish	Tak	Nie	OK	Czy na pewno chcesz wyjść z gry?	Należy przyznać uprawniene "Pamięć" na prowadzenie Samorosta 3.
