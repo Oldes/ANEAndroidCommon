@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+			<resources>
 	<string name="yes">Ja</string>
 	<string name="no">Nein</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">Willst du das Spiel wirklich beenden?</string>
 	<string name="storagePermission">Bitte erteilen Sie die Berechtigung \"Speicher\", um Samorost 3 auszuführen.</string>
+	<string name="visitGame" formatted="false">%s auf Google Play besuchen?</string>
+	<string name="visitWebsite" formatted="false">Amanita Design %s Website besuchen?</string>
+	<string name="official">offizielle</string>
+	<string name="Facebook">Facebook</string>
+	<string name="Twitter">Twitter</string>
+	<string name="merchandise">Merchandise Shop</string>
+	<string name="GPSignOut">Von Google Play-Diensten abmelden?</string>
 </resources>

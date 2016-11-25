@@ -44,6 +44,7 @@ public class CommonExtensionContext extends FREContext implements CommonStateCha
     }
     @Override
     public void onConfigurationChanged(Configuration paramConfiguration) {
+    	if(CommonExtension.VERBOSE > 0) Log.i(CommonExtension.TAG, "onConfigurationChanged: "+ paramConfiguration);
     }
 
     @SuppressWarnings("unused")
@@ -61,6 +62,8 @@ public class CommonExtensionContext extends FREContext implements CommonStateCha
 		functions.put("showToast", new CommonFunctions.ShowToast());
 		functions.put("showAlertDialog", new CommonFunctions.ShowAlertDialog());
 		functions.put("keepAwake", new CommonFunctions.KeepAwake());
+		functions.put("navigateToURL", new CommonFunctions.NavigateToURL());
+		functions.put("visitURLDialog", new CommonFunctions.ShowVisitURLDialog());
 		return functions;
 	}
 

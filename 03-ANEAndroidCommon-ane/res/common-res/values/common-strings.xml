@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+			<resources>
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">Are you sure you want to quit the game?</string>
 	<string name="storagePermission">Please grant \"Storage\" permission to run Samorost 3.</string>
+	<string name="visitGame" formatted="false">Visit %s on Google Play?</string>
+	<string name="visitWebsite" formatted="false">Visit Amanita Design\'s %s? </string>
+	<string name="official">official website</string>
+	<string name="Facebook">Facebook page</string>
+	<string name="Twitter">Twitter page</string>
+	<string name="merchandise">Merchandise Store</string>
+	<string name="Machinarium">Machinarium</string>
+	<string name="Botanicula">Botanicula</string>
+	<string name="Chuchel">Chuchel</string>
+	<string name="GPSignOut">Sign out from Google Play services?</string>
 </resources>

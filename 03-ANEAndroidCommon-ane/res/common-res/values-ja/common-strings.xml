@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+			<resources>
 	<string name="yes">はい</string>
 	<string name="no">いいえ</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">本当にゲームを終了しますか?</string>
 	<string name="storagePermission">Samorost3をプレイするためにストレージへのアクセス権限を許可して下さい。</string>
+	<string name="GPSignOut">Google Playサービスからログアウトしますか？</string>
 </resources>

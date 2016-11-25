@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+			<resources>
 	<string name="yes">예</string>
 	<string name="no">아니오</string>
 	<string name="OK">확인</string>
 	<string name="quitQuestion">정말로 게임을 종료하시겠습니까?</string>
 	<string name="storagePermission">Samorost 3 실행하려면 \"저장\"권한을 부여하십시오.</string>
+	<string name="GPSignOut">Google Play 서비스에서 로그 아웃 하시겠습니까?</string>
 </resources>

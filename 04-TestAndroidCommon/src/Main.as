@@ -59,6 +59,9 @@ package
 			log("onAlertDialog: " + e.value);
 			if (e.value == "yes") {
 				NativeApplication.nativeApplication.exit();
+			} else {
+				//It looks that flash.net.navigatetoURL forces app to loose context, so I'm using own version;
+				AndroidCommon.instance.navigateToURL("market://details?id=amanita_design.samorost3.GP");
 			}
 		}
 		

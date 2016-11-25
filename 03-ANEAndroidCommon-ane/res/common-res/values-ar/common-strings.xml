@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+			<resources>
 	<string name="yes">نعم</string>
 	<string name="no">لا</string>
 	<string name="OK">موافق</string>
 	<string name="quitQuestion">هل ترغب حقًا في الخروج من اللعبة؟</string>
 	<string name="storagePermission">يرجى منح \"التخزين\" الإذن لتشغيل Samorost 3.</string>
+	<string name="visitGame" formatted="false">زيارة %s في Google Play؟</string>
+	<string name="visitWebsite" formatted="false">زيارة s% الأمانيت ديزاين؟</string>
+	<string name="official">الموقع الرسمي</string>
+	<string name="Facebook">صفحة الفيسبوك</string>
+	<string name="Twitter">صفحة تويتر</string>
+	<string name="merchandise">متجر للبضائع</string>
 </resources>
