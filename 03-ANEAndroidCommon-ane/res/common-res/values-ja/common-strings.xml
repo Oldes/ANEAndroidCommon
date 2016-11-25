@@ -7,4 +7,5 @@
 	<string name="quitQuestion">本当にゲームを終了しますか?</string>
 	<string name="storagePermission">Samorost3をプレイするためにストレージへのアクセス権限を許可して下さい。</string>
 	<string name="GPSignOut">Google Playサービスからログアウトしますか？</string>
+	<string name="loginFailed">ログインに失敗しました！</string>
 </resources>

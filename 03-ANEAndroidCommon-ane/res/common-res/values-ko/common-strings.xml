@@ -7,4 +7,5 @@
 	<string name="quitQuestion">정말로 게임을 종료하시겠습니까?</string>
 	<string name="storagePermission">Samorost 3 실행하려면 \"저장\"권한을 부여하십시오.</string>
 	<string name="GPSignOut">Google Play 서비스에서 로그 아웃 하시겠습니까?</string>
+	<string name="loginFailed">로그인 실패!</string>
 </resources>

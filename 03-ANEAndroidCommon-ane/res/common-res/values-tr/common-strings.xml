@@ -13,4 +13,5 @@
 	<string name="Twitter">Twitter hesabı</string>
 	<string name="merchandise">alışveriş mağazası</string>
 	<string name="GPSignOut">Google Play servislerinden çıkış yapmanız mı gerekiyor?</string>
+	<string name="loginFailed">Giriş başarısız!</string>
 </resources>

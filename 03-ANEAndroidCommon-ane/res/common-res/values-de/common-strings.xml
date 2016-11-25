@@ -13,4 +13,5 @@
 	<string name="Twitter">Twitter</string>
 	<string name="merchandise">Merchandise Shop</string>
 	<string name="GPSignOut">Von Google Play-Diensten abmelden?</string>
+	<string name="loginFailed">Anmeldung fehlgeschlagen!</string>
 </resources>

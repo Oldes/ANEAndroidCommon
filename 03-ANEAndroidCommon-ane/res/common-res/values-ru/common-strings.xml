@@ -13,4 +13,5 @@
 	<string name="Twitter">Twitter страницу</string>
 	<string name="merchandise">магазин товаров</string>
 	<string name="GPSignOut">Выйти из услуг в Google Play?</string>
+	<string name="loginFailed">Ошибка входа!</string>
 </resources>

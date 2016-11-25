@@ -13,4 +13,5 @@
 	<string name="Twitter">Twitter stránku</string>
 	<string name="merchandise">merchandise obchod</string>
 	<string name="GPSignOut">Odhlášení od služby Google Play?</string>
+	<string name="loginFailed">Přihlášení selhalo!</string>
 </resources>

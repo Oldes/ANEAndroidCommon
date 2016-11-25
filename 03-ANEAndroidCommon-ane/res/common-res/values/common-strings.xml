@@ -16,4 +16,5 @@
 	<string name="Botanicula">Botanicula</string>
 	<string name="Chuchel">Chuchel</string>
 	<string name="GPSignOut">Sign out from Google Play services?</string>
+	<string name="loginFailed">Login failed!</string>
 </resources>

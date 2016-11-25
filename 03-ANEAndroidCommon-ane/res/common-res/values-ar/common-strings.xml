@@ -12,4 +12,6 @@
 	<string name="Facebook">صفحة الفيسبوك</string>
 	<string name="Twitter">صفحة تويتر</string>
 	<string name="merchandise">متجر للبضائع</string>
+	<string name="GPSignOut">تسجيل الخروج من خدمات Google Play؟</string>
+	<string name="loginFailed">فشل تسجيل الدخول!</string>
 </resources>

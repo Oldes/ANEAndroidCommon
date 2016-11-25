@@ -13,4 +13,5 @@
 	<string name="Twitter">la página de Twitter</string>
 	<string name="merchandise">sitio web de mercancías</string>
 	<string name="GPSignOut">¿Salir de los servicios de Google Play?</string>
+	<string name="loginFailed">¡Error de inicio de sesion!</string>
 </resources>

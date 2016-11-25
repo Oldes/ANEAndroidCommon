@@ -112,6 +112,7 @@ public class CommonFunctions {
 			try{
 				String message = args[0].getAsString();
 		    	int duration = args[1].getAsInt();
+		    	if(duration < 0) duration = 0;
 		    	if(CommonExtension.VERBOSE > 0) Log.d(CommonExtension.TAG, "showToast: '"+ message +"', duration: "+ duration);
 		    	Toast.makeText(ctx.getActivity(), message, duration).show();
 			} catch (Exception e) {
