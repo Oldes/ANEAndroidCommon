@@ -4,16 +4,16 @@
 	<string name="no">Ne</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">Opravdu chcete ukončit hru?</string>
-	<string name="storagePermission">Ke spuštění Samorostu 3 prosím povolte oprávnění \"Úložiště\".</string>
-	<string name="visitGame">Navštívit %1$s na Google Play?</string>
-	<string name="visitWebsite">Navštívit %1$s Amanita Design?</string>
-	<string name="official">oficiální stránku</string>
+	<string name="storagePermission">K spusteniu Samorost 3 prosím povoľte oprávnenia \"Úložisko\".</string>
+	<string name="visitGame">Navštíviť %1$s na Google Play?</string>
+	<string name="visitWebsite">Navštíviť %1$s Amanita Design?</string>
+	<string name="official">oficiálnu stránku</string>
 	<string name="Facebook">Facebook stránku</string>
 	<string name="Twitter">Twitter stránku</string>
 	<string name="merchandise">merchandise obchod</string>
 	<string name="Machinarium">Machinarium</string>
 	<string name="Botanicula">Botanicula</string>
 	<string name="Chuchel">Chuchel</string>
-	<string name="GPSignOut">Odhlášení od služby Google Play Hry?</string>
-	<string name="loginFailed">Přihlášení selhalo!</string>
+	<string name="GPSignOut">Odhlásenie od služby Google Play Hry?</string>
+	<string name="loginFailed">Prihlásenie zlyhalo!</string>
 </resources>

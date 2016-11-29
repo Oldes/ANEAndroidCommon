@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-			<resources>
+<resources>
 	<string name="yes">Evet</string>
 	<string name="no">Hayır</string>
 	<string name="OK">Tamam</string>
 	<string name="quitQuestion">Oyundan çıkmak istediğinizden emin misiniz?</string>
 	<string name="storagePermission">Samorost 3\'ü çalıştırabilmek için lütfen \"Depolama\" yetkisini onaylayın.</string>
-	<string name="visitGame" formatted="false">Google Play\'de %s ziyaret edilsin mi?</string>
-	<string name="visitWebsite" formatted="false">Amanita Design\'ın %s ziyaret edilsin mi?</string>
+	<string name="visitGame">Google Play\'de %1$s ziyaret edilsin mi?</string>
+	<string name="visitWebsite">Amanita Design\'ın %1$s ziyaret edilsin mi?</string>
 	<string name="official">resmi web sayfası</string>
 	<string name="Facebook">Facebook sayfası</string>
 	<string name="Twitter">Twitter hesabı</string>
 	<string name="merchandise">alışveriş mağazası</string>
-	<string name="GPSignOut">Google Play servislerinden çıkış yapmanız mı gerekiyor?</string>
+	<string name="Machinarium">Machinarium</string>
+	<string name="Botanicula">Botanicula</string>
+	<string name="Chuchel">Chuchel</string>
+	<string name="GPSignOut">Google Play Oyunlar hizmetlerinden çıkış yapılsın mı?</string>
 	<string name="loginFailed">Giriş başarısız!</string>
 </resources>

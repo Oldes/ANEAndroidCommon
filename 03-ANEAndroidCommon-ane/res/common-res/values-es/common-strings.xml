@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-			<resources>
+<resources>
 	<string name="yes">Sí</string>
 	<string name="no">No</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">¿Seguro que quieres salir del juego?</string>
 	<string name="storagePermission">Por favor concede permiso \"Almacenamiento\" para ejecutar Samorost 3.</string>
-	<string name="visitGame" formatted="false">¿Visite %s en Google Play?</string>
-	<string name="visitWebsite" formatted="false">¿Visite %s de Amanita Design?</string>
+	<string name="visitGame">¿Visite %1$s en Google Play?</string>
+	<string name="visitWebsite">¿Visite %1$s de Amanita Design?</string>
 	<string name="official">el oficial sitio web</string>
 	<string name="Facebook">la página de Facebook</string>
 	<string name="Twitter">la página de Twitter</string>
 	<string name="merchandise">sitio web de mercancías</string>
-	<string name="GPSignOut">¿Salir de los servicios de Google Play?</string>
+	<string name="Machinarium">Machinarium</string>
+	<string name="Botanicula">Botanicula</string>
+	<string name="Chuchel">Chuchel</string>
+	<string name="GPSignOut">¿Salir de los servicios de Google Play Juegos?</string>
 	<string name="loginFailed">¡Error de inicio de sesion!</string>
 </resources>
