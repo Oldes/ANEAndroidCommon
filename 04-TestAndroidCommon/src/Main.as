@@ -49,6 +49,8 @@ package
 			AndroidCommon.instance.addEventListener(StateChangedEvent.ON_STATE_CHANGED, onStateChanged);
 			
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, onKey);
+			
+			AndroidCommon.instance.visitURLDialog("http://amanita-design.net", "visitWebsite", "official", "ここから先はauスマートパス外となりますが!");
 		}
 		
 		private function onStateChanged(e:StateChangedEvent):void {
@@ -61,7 +63,8 @@ package
 				NativeApplication.nativeApplication.exit();
 			} else {
 				//It looks that flash.net.navigatetoURL forces app to loose context, so I'm using own version;
-				AndroidCommon.instance.navigateToURL("market://details?id=amanita_design.samorost3.GP");
+				//AndroidCommon.instance.navigateToURL("market://details?id=amanita_design.samorost3.GP");
+				
 			}
 		}
 		
