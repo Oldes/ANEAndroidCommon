@@ -5,7 +5,7 @@
 	<string name="OK">OK</string>
 	<string name="quitQuestion">Are you sure you want to quit the game?</string>
 	<string name="storagePermission">Please grant \"Storage\" permission to run Samorost 3.</string>
-	<string name="visitGame">Visit %1$s on Google Play?</string>
+	<string name="visitGame">Visit %1$s?</string>
 	<string name="visitWebsite">Visit Amanita Design\'s %1$s? </string>
 	<string name="official">official website</string>
 	<string name="Facebook">Facebook page</string>
