@@ -11,7 +11,7 @@ add-string: func[name str][
 
 foreach line data [
 
-	foreach [a b sYes sNo sOK sQuit sPerm c d e f g h i j k l m] parse/all line "^-" [
+	foreach [a b sYes sNo sOK sQuit sPerm c d e f g h i j k l m n] parse/all line "^-" [
 		probe a
 
 		dir: either a = "en" [
@@ -42,7 +42,7 @@ foreach line data [
 		add-string "Chuchel"           k
 		add-string "GPSignOut"         l
 		add-string "loginFailed"       m
-		
+		add-string "buyGame"           n
 		write/binary dir/common-strings.xml join resources {</resources>}
 	]
 ]

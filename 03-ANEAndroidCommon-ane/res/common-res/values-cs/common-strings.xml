@@ -5,7 +5,7 @@
 	<string name="OK">OK</string>
 	<string name="quitQuestion">Opravdu chcete ukončit hru?</string>
 	<string name="storagePermission">Ke spuštění Samorostu 3 prosím povolte oprávnění \"Úložiště\".</string>
-	<string name="visitGame">Navštívit %1$s na Google Play?</string>
+	<string name="visitGame">Navštívit hru %1$s na Google Play?</string>
 	<string name="visitWebsite">Navštívit %1$s Amanita Design?</string>
 	<string name="official">oficiální stránku</string>
 	<string name="Facebook">Facebook stránku</string>
@@ -16,4 +16,5 @@
 	<string name="Chuchel">Chuchel</string>
 	<string name="GPSignOut">Odhlášení od služby Google Play Hry?</string>
 	<string name="loginFailed">Přihlášení selhalo!</string>
+	<string name="buyGame">Koupit celou hru na Google Play?</string>
 </resources>
