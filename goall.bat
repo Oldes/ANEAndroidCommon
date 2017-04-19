@@ -1,7 +1,7 @@
 @echo off
 set PAUSE_ERRORS=1
 
-SET FLEX_SDK=c:\SDKs\AIR23
+SET FLEX_SDK=c:\SDKs\AIR25
 set PATH=%PATH%;%FLEX_SDK%\bin
 
 

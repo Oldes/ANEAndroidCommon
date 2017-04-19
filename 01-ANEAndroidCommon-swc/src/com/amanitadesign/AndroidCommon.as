@@ -87,7 +87,7 @@ package com.amanitadesign
 		public function showAlertDialog(title:String = null, message:String = null): Boolean { return extContext.call("showAlertDialog", title, message) as Boolean; }
 		public function keepAwake(state:Boolean): void { extContext.call("keepAwake", state); }
 		public function navigateToURL(url:String): Boolean { return extContext.call("navigateToURL", url) as Boolean; }
-		public function visitURLDialog(url:String, messageRes:String, nameRes:String=null): Boolean { return extContext.call("visitURLDialog", url, messageRes, nameRes) as Boolean; }
+		public function visitURLDialog(url:String, messageRes:String, nameRes:String=null, comment:String=null): Boolean { return extContext.call("visitURLDialog", url, messageRes, nameRes, comment) as Boolean; }
 	}
 }
 

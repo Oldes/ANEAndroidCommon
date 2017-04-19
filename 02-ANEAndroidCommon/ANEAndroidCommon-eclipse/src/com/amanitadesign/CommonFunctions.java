@@ -179,20 +179,22 @@ public class CommonFunctions {
 				if(CommonExtension.VERBOSE > 1) Log.d(CommonExtension.TAG, "ShowVisitURLDialog");
 				
 				url = args[0].getAsString();
-				String message   = getResourceString(args[1].getAsString());
+				String title   = getResourceString(args[1].getAsString());
 				String name = (args[2] == null) ? null : args[2].getAsString();
+				String message = (args[3] == null) ? null : args[3].getAsString();
 				
 				
 				if(name != null) {
 					name = getResourceString(name);
-					message = String.format(message, name);
+					title = String.format(title, name);
 				}
 				
-
+				Log.d(CommonExtension.TAG, "ShowVisitURLDialog message: " +message);
 				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity());
 				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), AlertDialog.THEME_HOLO_DARK);
 				alertDialogBuilder
-					.setTitle(message)
+					.setTitle(title)
+					.setMessage(message)
 					.setNegativeButton(getResourceString(NO), new DialogInterface.OnClickListener() {
 						public void onClick(DialogInterface dialog,int id) {
 						    //CommonExtension.extensionContext.dispatchStatusEventAsync("onAlertDialog", NO);

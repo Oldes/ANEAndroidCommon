@@ -13,7 +13,7 @@ import com.amanitadesign.CommonExtensionContext;
  */
 public class CommonExtension implements FREExtension {
     public static final String TAG = "AmanitaCommonExtension";
-    public static final int VERBOSE = 0; 
+    public static final int VERBOSE = 3; 
 
     public static CommonExtensionContext extensionContext;
     public static Context appContext;
