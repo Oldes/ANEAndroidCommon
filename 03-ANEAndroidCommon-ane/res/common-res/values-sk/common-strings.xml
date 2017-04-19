@@ -16,4 +16,5 @@
 	<string name="Chuchel">Chuchel</string>
 	<string name="GPSignOut">Odhlásenie od služby Google Play Hry?</string>
 	<string name="loginFailed">Prihlásenie zlyhalo!</string>
+	<string name="buyGame">Kúpiť celú hru Samorost 3 na Google Play?</string>
 </resources>

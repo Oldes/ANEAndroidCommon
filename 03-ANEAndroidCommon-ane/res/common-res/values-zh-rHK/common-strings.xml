@@ -16,4 +16,5 @@
 	<string name="Chuchel">《Chuchel》</string>
 	<string name="GPSignOut">從\"Google Play遊戲\"服務登出？</string>
 	<string name="loginFailed">登錄失敗！</string>
+	<string name="buyGame">在Google Play上购买完整的Samorost 3游戏？</string>
 </resources>

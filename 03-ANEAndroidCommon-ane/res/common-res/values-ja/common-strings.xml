@@ -16,4 +16,5 @@
 	<string name="Chuchel">『Chuchel』</string>
 	<string name="GPSignOut">Google Playゲームサービスからログアウトしますか？</string>
 	<string name="loginFailed">ログインに失敗しました！</string>
+	<string name="buyGame">Google Playで完全なSamorost 3ゲームを購入しますか？</string>
 </resources>

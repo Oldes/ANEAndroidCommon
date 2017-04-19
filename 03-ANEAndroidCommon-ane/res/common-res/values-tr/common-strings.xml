@@ -16,4 +16,5 @@
 	<string name="Chuchel">Chuchel</string>
 	<string name="GPSignOut">Google Play Oyunlar hizmetlerinden çıkış yapılsın mı?</string>
 	<string name="loginFailed">Giriş başarısız!</string>
+	<string name="buyGame">Oyunun tamamını Google Play\'den alıyor musunuz?</string>
 </resources>

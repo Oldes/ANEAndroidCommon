@@ -16,4 +16,5 @@
 	<string name="Chuchel">Chuchel</string>
 	<string name="GPSignOut">Terminar sessão nos serviços do Google Play Jogos?</string>
 	<string name="loginFailed">Falha na autenticação!</string>
+	<string name="buyGame">Comprar o jogo completo Samorost 3 no Google Play?</string>
 </resources>
