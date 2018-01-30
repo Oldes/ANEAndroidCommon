@@ -18,5 +18,11 @@
           <initializer>com.amanitadesign.CommonExtension</initializer>
         </applicationDeployment>
       </platform>
+      <platform name="Android-x86">
+        <applicationDeployment>
+          <nativeLibrary>AndroidCommon.jar</nativeLibrary>
+          <initializer>com.amanitadesign.CommonExtension</initializer>
+        </applicationDeployment>
+      </platform>
     </platforms>
 </extension>
