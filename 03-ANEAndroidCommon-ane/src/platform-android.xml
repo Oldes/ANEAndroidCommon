@@ -7,6 +7,10 @@
             <packageName>com.amanitadesign</packageName> 
             <folderName>common-res</folderName> 
         </packagedResource>
+        <packagedResource>
+            <packageName>com.amanitadesign</packageName> 
+            <folderName>icon-res</folderName> 
+        </packagedResource>
         
     </packagedResources>
 </platform>
