@@ -4,7 +4,7 @@
 	<string name="no">No</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">¿Seguro que quieres salir del juego?</string>
-	<string name="storagePermission">Por favor concede permiso \"Almacenamiento\" para ejecutar Samorost 3.</string>
+	<string name="storagePermission">Por favor concede permiso \"Almacenamiento\" para ejecutar CHUCHEL.</string>
 	<string name="visitGame">¿Visite %1$s en Google Play?</string>
 	<string name="visitWebsite">¿Visite %1$s de Amanita Design?</string>
 	<string name="official">el oficial sitio web</string>
@@ -13,8 +13,8 @@
 	<string name="merchandise">sitio web de mercancías</string>
 	<string name="Machinarium">Machinarium</string>
 	<string name="Botanicula">Botanicula</string>
-	<string name="Chuchel">Chuchel</string>
+	<string name="Samorost">Samorost 3</string>
 	<string name="GPSignOut">¿Salir de los servicios de Google Play Juegos?</string>
 	<string name="loginFailed">¡Error de inicio de sesion!</string>
-	<string name="buyGame">Comprar el juego completo de Samorost 3 en Google Play?</string>
+	<string name="buyGame">Comprar el juego completo de CHUCHEL en Google Play?</string>
 </resources>

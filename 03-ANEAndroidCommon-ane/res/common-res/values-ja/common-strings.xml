@@ -4,17 +4,17 @@
 	<string name="no">いいえ</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">本当にゲームを終了しますか?</string>
-	<string name="storagePermission">Samorost 3(사모로스트 3)をプレイするためにストレージへのアクセス権限を許可して下さい。</string>
+	<string name="storagePermission">CHUCHELをプレイするためにストレージへのアクセス権限を許可して下さい。</string>
 	<string name="visitGame">Google Playの%1$sページをぜひ見てください！</string>
 	<string name="visitWebsite">Amanita Designの%1$sを見ますか？</string>
 	<string name="official">公式ウェブサイト</string>
 	<string name="Facebook">Facebookページ</string>
 	<string name="Twitter">Twitterページ</string>
 	<string name="merchandise">グッズストア</string>
-	<string name="Machinarium">Machinarium(マシナリウム)</string>
-	<string name="Botanicula">Botanicula(ボタニキュラ)</string>
-	<string name="Chuchel">『Chuchel』</string>
+	<string name="Machinarium">Machinarium (マシナリウム)</string>
+	<string name="Botanicula">Botanicula (ボタニキュラ)</string>
+	<string name="Samorost">Samorost 3 (サモロスト3)</string>
 	<string name="GPSignOut">Google Playゲームサービスからログアウトしますか？</string>
 	<string name="loginFailed">ログインに失敗しました！</string>
-	<string name="buyGame">Google Playで完全なSamorost 3ゲームを購入しますか？</string>
+	<string name="buyGame">Google Playで完全なCHUCHELゲームを購入しますか？</string>
 </resources>

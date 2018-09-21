@@ -39,7 +39,7 @@ foreach line data [
 		add-string "merchandise"       h
 		add-string "Machinarium"       i
 		add-string "Botanicula"        j
-		add-string "Chuchel"           k
+		add-string "Samorost"          k
 		add-string "GPSignOut"         l
 		add-string "loginFailed"       m
 		add-string "buyGame"           n

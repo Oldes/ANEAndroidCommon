@@ -4,7 +4,7 @@
 	<string name="no">Ne</string>
 	<string name="OK">OK</string>
 	<string name="quitQuestion">Opravdu chcete ukončit hru?</string>
-	<string name="storagePermission">K spusteniu Samorost 3 prosím povoľte oprávnenia \"Úložisko\".</string>
+	<string name="storagePermission">K spusteniu hry CHUCHEL prosím povoľte oprávnenia \"Úložisko\".</string>
 	<string name="visitGame">Navštíviť %1$s na Google Play?</string>
 	<string name="visitWebsite">Navštíviť %1$s Amanita Design?</string>
 	<string name="official">oficiálnu stránku</string>
@@ -13,8 +13,8 @@
 	<string name="merchandise">merchandise obchod</string>
 	<string name="Machinarium">Machinarium</string>
 	<string name="Botanicula">Botanicula</string>
-	<string name="Chuchel">Chuchel</string>
+	<string name="Samorost">Samorost 3</string>
 	<string name="GPSignOut">Odhlásenie od služby Google Play Hry?</string>
 	<string name="loginFailed">Prihlásenie zlyhalo!</string>
-	<string name="buyGame">Kúpiť celú hru Samorost 3 na Google Play?</string>
+	<string name="buyGame">Kúpiť celú hru CHUCHEL na Google Play?</string>
 </resources>
