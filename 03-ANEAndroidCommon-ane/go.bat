@@ -17,6 +17,14 @@ xcopy /S /Y res\* src\assets\platform\Android-x86\
 xcopy /S /Y res-icon-chu src\assets\platform\Android-ARM\
 xcopy /S /Y res-icon-chu src\assets\platform\Android-x86\
 
+::uncomment for Chuchel-Tencent adaptive icon assets
+xcopy /S /Y res-icon-chu-te src\assets\platform\Android-ARM\
+xcopy /S /Y res-icon-chu-te src\assets\platform\Android-x86\
+
+::uncomment for S3Demo adaptive icon assets
+::xcopy /S /Y res-icon-s3demo src\assets\platform\Android-ARM\
+::xcopy /S /Y res-icon-s3demo src\assets\platform\Android-x86\
+
 ::uncomment for .... adaptive icon assets
 ::xcopy /S /Y res-icon-new src\assets\platform\Android-ARM\
 ::xcopy /S /Y res-icon-new src\assets\platform\Android-x86\
