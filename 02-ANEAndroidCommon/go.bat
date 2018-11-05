@@ -20,4 +20,4 @@ MOVE /Y AndroidCommon.jar ../../
 
 CD ../../
 
-::RD  /S /Q AndroidCommon
+RD  /S /Q AndroidCommon

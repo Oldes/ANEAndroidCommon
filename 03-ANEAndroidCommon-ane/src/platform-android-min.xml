@@ -1,0 +1,40 @@
+<platform xmlns="http://ns.adobe.com/air/extension/22.0"> 
+    <packagedDependencies>
+    	<!--<packagedDependency>animated-vector-drawable-27.1.1.jar</packagedDependency>
+        <packagedDependency>appcompat-v7-27.1.1.jar</packagedDependency>
+        <packagedDependency>support-compat-27.1.1.jar</packagedDependency>
+        <packagedDependency>support-core-ui-27.1.1.jar</packagedDependency>
+        <packagedDependency>support-core-utils-27.1.1.jar</packagedDependency>
+        <packagedDependency>support-fragment-27.1.1.jar</packagedDependency>
+        <packagedDependency>support-vector-drawable-27.1.1.jar</packagedDependency>-->
+        <!-- media-compat needed by GMS -->
+        <!--<packagedDependency>support-media-compat-27.1.1.jar</packagedDependency>-->
+    </packagedDependencies> 
+    <packagedResources>
+        <!-- comment out this block if not including GPS -->
+        <packagedResource>
+            <packageName>com.amanitadesign</packageName> 
+            <folderName>common-res</folderName> 
+        </packagedResource>
+        
+        <packagedResource>
+            <packageName>com.android.support</packageName>
+            <folderName>res-AppCompat-v7-27.1.1</folderName>
+        </packagedResource>
+	<!-- 
+        <packagedResource>
+            <packageName>com.android.support</packageName> 
+            <folderName>res-support-compat-27.1.1</folderName> 
+        </packagedResource>
+        <packagedResource>
+            <packageName>com.android.support</packageName> 
+            <folderName>res-support-core-ui-27.1.1</folderName> 
+        </packagedResource>-->
+
+        <packagedResource>
+            <packageName>com.amanitadesign</packageName> 
+            <folderName>icon-res</folderName> 
+        </packagedResource>
+        
+    </packagedResources>
+</platform>
