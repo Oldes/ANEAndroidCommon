@@ -11,10 +11,15 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.view.WindowManager;
 import android.widget.Toast;
 
 public class CommonFunctions {
+	static public int getResourceId(String name, String type) {
+		Resources res = CommonExtension.appContext.getResources();
+		return res.getIdentifier(name, type, CommonExtension.appContext.getPackageName());
+	}
 	static public String getResourceString(String id) {
 		Resources res = CommonExtension.appContext.getResources();
 		return res.getString(res.getIdentifier(id, "string", CommonExtension.appContext.getPackageName()));
@@ -26,6 +31,8 @@ public class CommonFunctions {
 		CommonExtension.extensionContext.getActivity().startActivity(openUrlIntent);
 	}
 	static private void displayDialog(AlertDialog.Builder alertDialogBuilder) {
+		Log.d(CommonExtension.TAG, "displayDialog: "+ alertDialogBuilder);
+		try {
 		// create alert dialog
 		AlertDialog alertDialog = alertDialogBuilder.create();
 
@@ -41,6 +48,9 @@ public class CommonFunctions {
 
 		//Clear the not focusable flag from the window
 		alertDialog.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	static public class Init implements FREFunction {
@@ -133,10 +143,18 @@ public class CommonFunctions {
 				String title   = (args[0] == null) ? null : args[0].getAsString();
 				String message = (args[1] == null) ? null : args[1].getAsString();
 				
-				if(CommonExtension.VERBOSE > 1) Log.d(CommonExtension.TAG, "ShowAlertDialog");
-
-				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity());
-				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), AlertDialog.THEME_HOLO_DARK);
+				int themeId = getResourceId("AppTheme", "style");
+				
+				ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(context.getActivity(), themeId);
+				
+				if(CommonExtension.VERBOSE > 1) Log.d(CommonExtension.TAG, "ShowAlertDialog!");
+				
+				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(contextThemeWrapper);
+				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(),  getResourceId("AppTheme", "style"));
+				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), AlertDialog.THEME_HOLO_DARK);
+				
+				Log.e(CommonExtension.TAG, "ShowAlertDialog builder:"+ alertDialogBuilder);
+				
 				alertDialogBuilder
 					.setTitle(title)
 					.setMessage(message)
@@ -162,6 +180,8 @@ public class CommonFunctions {
 			    return FREObject.newObject(true);
 			}
 			catch (Exception e) {
+				Log.e(CommonExtension.TAG, "ShowAlertDialog failed");
+				e.printStackTrace();
 				return null;
 			}
 		}
@@ -190,8 +210,8 @@ public class CommonFunctions {
 				}
 				
 				Log.d(CommonExtension.TAG, "ShowVisitURLDialog message: " +message);
-				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity());
-				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), AlertDialog.THEME_HOLO_DARK);
+				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity());
+				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), 16974393);
 				alertDialogBuilder
 					.setTitle(title)
 					.setMessage(message)
@@ -211,6 +231,7 @@ public class CommonFunctions {
 			    return FREObject.newObject(true);
 			}
 			catch (Exception e) {
+				e.printStackTrace();
 				return null;
 			}
 		}

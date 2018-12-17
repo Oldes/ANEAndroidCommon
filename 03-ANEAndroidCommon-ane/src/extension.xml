@@ -1,4 +1,4 @@
-<extension xmlns="http://ns.adobe.com/air/extension/22.0">
+<extension xmlns="http://ns.adobe.com/air/extension/32.0">
 
 <!-- ADOBE SYSTEMS INCORPORATED                                                                       -->
 <!--  Copyright 2011 Adobe Systems Incorporated                                                       -->
@@ -18,11 +18,11 @@
           <initializer>com.amanitadesign.CommonExtension</initializer>
         </applicationDeployment>
       </platform>
-      <platform name="Android-x86">
+      <!--<platform name="Android-x86">
         <applicationDeployment>
           <nativeLibrary>AndroidCommon.jar</nativeLibrary>
           <initializer>com.amanitadesign.CommonExtension</initializer>
         </applicationDeployment>
-      </platform>
+      </platform>-->
     </platforms>
 </extension>

@@ -43,6 +43,7 @@ package
 			log("Testing Amanita Android ANE...");
 			log("AndroidCommon is supported: " + AndroidCommon.isSupported);
 			log("DeviceId: " + AndroidCommon.instance.getDeviceId());
+			log("Test getResourceString: " + AndroidCommon.instance.getResourceString("quitQuestion"));
 			log("\nPress BACK button to test the AlertDialog!");
 			
 			AndroidCommon.instance.keepAwake(true);
@@ -50,7 +51,7 @@ package
 			
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, onKey);
 			
-			AndroidCommon.instance.visitURLDialog("http://amanita-design.net", "visitWebsite", "official", "ここから先はauスマートパス外となりますが!");
+			AndroidCommon.instance.visitURLDialog("http://amanita-design.net", "visitWebsite", "official", "Test: ここから先はauスマートパス外となりますが!");
 		}
 		
 		private function onStateChanged(e:StateChangedEvent):void {
@@ -64,7 +65,7 @@ package
 			} else {
 				//It looks that flash.net.navigatetoURL forces app to loose context, so I'm using own version;
 				//AndroidCommon.instance.navigateToURL("market://details?id=amanita_design.samorost3.GP");
-				
+				AndroidCommon.instance.showToast("Keep testing!", 1000);
 			}
 		}
 		

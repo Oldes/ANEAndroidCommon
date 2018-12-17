@@ -52,5 +52,5 @@ DEL TestAndroidCommon.swf
 
 ECHO 
 
-@PAUSE
+::@PAUSE
 
