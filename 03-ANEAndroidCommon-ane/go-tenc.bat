@@ -9,7 +9,7 @@ copy "..\01-ANEAndroidCommon-swc\com.amanitadesign.AndroidCommon.swc" src\assets
 xcopy /S /Y res\* src\assets\platform\Android-ARM\
 ::xcopy /S /Y res\* src\assets\platform\Android-x86\
 
-xcopy /S /Y res-Support-min\* src\assets\platform\Android-ARM\
+::xcopy /S /Y res-Support-min\* src\assets\platform\Android-ARM\
 
 ::uncomment for Botanicula adaptive icon assets
 ::xcopy /S /Y res-icon-bota src\assets\platform\Android-ARM\
@@ -49,7 +49,7 @@ copy src\assets\swc-contents\library.swf src\assets\platform\Android-ARM
 java -jar "%AIR_SDK%\lib\adt.jar" -package                     ^
 	-target ane ANEAndroidCommon_icon-only.ane src\extension.xml    ^
 	-swc src\assets\com.amanitadesign.AndroidCommon.swc   ^
-	-platform Android-ARM -platformoptions src\platform-android-min.xml -C src\assets\platform\Android-ARM .
+	-platform Android-ARM -platformoptions src\platform-android-tenc.xml -C src\assets\platform\Android-ARM .
 
 RD  /S /Q .\src\assets
 
