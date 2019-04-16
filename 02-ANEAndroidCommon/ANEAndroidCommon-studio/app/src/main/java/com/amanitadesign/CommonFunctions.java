@@ -2,17 +2,17 @@ package com.amanitadesign;
 
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
+import com.adobe.fre.FREInvalidObjectException;
 import com.adobe.fre.FREObject;
-import com.amanitadesign.CommonExtension;
-
+import com.adobe.fre.FRETypeMismatchException;
+import com.adobe.fre.FREWrongThreadException;
+import android.view.ContextThemeWrapper;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
-import android.os.Build;
 import android.util.Log;
-import android.view.ContextThemeWrapper;
 import android.view.WindowManager;
 import android.widget.Toast;
 
@@ -32,7 +32,7 @@ public class CommonFunctions {
 		CommonExtension.extensionContext.getActivity().startActivity(openUrlIntent);
 	}
 	static private void displayDialog(AlertDialog.Builder alertDialogBuilder) {
-		Log.d(CommonExtension.TAG, "displayDialog: "+ alertDialogBuilder);
+		if(CommonExtension.VERBOSE > 0) Log.d(CommonExtension.TAG, "displayDialog: "+ alertDialogBuilder);
 		try {
 		// create alert dialog
 		AlertDialog alertDialog = alertDialogBuilder.create();
@@ -76,7 +76,22 @@ public class CommonFunctions {
 			return result;
 		}
 	}
-	
+
+	static public class GetSDKInt implements FREFunction  {
+
+		@Override
+		public FREObject call(FREContext ctx, FREObject[] args) {
+			FREObject result = null;
+
+			try{
+				result = FREObject.newObject(android.os.Build.VERSION.SDK_INT);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			return result;
+		}
+	}
+
 	static public class GetResourceString implements FREFunction  {
 
 		@SuppressWarnings("unused")
@@ -92,21 +107,6 @@ public class CommonFunctions {
 				e.printStackTrace();
 			}
 			return null;
-		}
-	}
-	
-	static public class GetSDKInt implements FREFunction  {
-
-		@Override
-		public FREObject call(FREContext ctx, FREObject[] args) {
-			FREObject result = null;
-
-			try{
-				result = FREObject.newObject(Build.VERSION.SDK_INT);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-			return result;
 		}
 	}
 		
@@ -155,23 +155,32 @@ public class CommonFunctions {
 		@SuppressWarnings("unused")
 		@Override
 		final public FREObject call(FREContext context, FREObject[] args) {
+
+			String title   = null;
+			String message = null;
 			try {
-				String title   = (args[0] == null) ? null : args[0].getAsString();
-				String message = (args[1] == null) ? null : args[1].getAsString();
-				
-				int themeId = getResourceId("AppTheme", "style");
-				
-				ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(context.getActivity(), themeId);
-				
-				if(CommonExtension.VERBOSE > 1) Log.d(CommonExtension.TAG, "ShowAlertDialog!");
-				
+				title   = (args[0] == null) ? null : args[0].getAsString();
+				message = (args[1] == null) ? null : args[1].getAsString();
+			} catch (FRETypeMismatchException e) {
+				e.printStackTrace();
+			} catch (FREInvalidObjectException e) {
+				e.printStackTrace();
+			} catch (FREWrongThreadException e) {
+				e.printStackTrace();
+			}
+
+			try {
+				if(CommonExtension.VERBOSE > 1) Log.d(CommonExtension.TAG, "ShowAlertDialog!!");
+				//Log.d(CommonExtension.TAG, "CONTEXT: "+ context + " activity:" + context.getActivity());
+				//Log.d(CommonExtension.TAG, "AppTheme: "+ getResourceId("AppTheme", "style"));
+				ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(context.getActivity(), CommonExtension.themeId );
+
 				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(contextThemeWrapper);
-				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(),  getResourceId("AppTheme", "style"));
-				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), AlertDialog.THEME_HOLO_DARK);
-				
-				Log.e(CommonExtension.TAG, "ShowAlertDialog builder:"+ alertDialogBuilder);
+
+				//Log.d(CommonExtension.TAG, "ShowAlertDialog builder:"+ alertDialogBuilder);
 				
 				alertDialogBuilder
+					//	.setIcon(getResourceId("ic_launcher", "mipmap"))
 					.setTitle(title)
 					.setMessage(message)
 					.setNegativeButton(getResourceString(NO), new DialogInterface.OnClickListener() {
@@ -224,10 +233,13 @@ public class CommonFunctions {
 					name = getResourceString(name);
 					title = String.format(title, name);
 				}
-				
-				Log.d(CommonExtension.TAG, "ShowVisitURLDialog message: " +message);
-				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity());
-				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), 16974393);
+
+				if(CommonExtension.VERBOSE > 1) Log.d(CommonExtension.TAG, "ShowVisitURLDialog message: " +message);
+				ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(context.getActivity(), CommonExtension.themeId);
+
+				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(contextThemeWrapper);
+				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity());
+				//AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context.getActivity(), AlertDialog.THEME_HOLO_DARK);
 				alertDialogBuilder
 					.setTitle(title)
 					.setMessage(message)

@@ -1,4 +1,4 @@
-package
+﻿package
 {
 	import flash.desktop.NativeApplication;
 	import flash.events.Event;
@@ -43,6 +43,7 @@ package
 			log("Testing Amanita Android ANE...");
 			log("AndroidCommon is supported: " + AndroidCommon.isSupported);
 			log("DeviceId: " + AndroidCommon.instance.getDeviceId());
+			log("Android API version: " + AndroidCommon.instance.getSDKInt());
 			log("Test getResourceString: " + AndroidCommon.instance.getResourceString("quitQuestion"));
 			log("\nPress BACK button to test the AlertDialog!");
 			

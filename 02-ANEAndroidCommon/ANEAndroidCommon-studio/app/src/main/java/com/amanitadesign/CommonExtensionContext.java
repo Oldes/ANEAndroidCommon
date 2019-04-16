@@ -16,12 +16,11 @@ import com.adobe.fre.FREFunction;
 
 public class CommonExtensionContext extends FREContext implements CommonStateChangeCallback
 {
-	private AndroidActivityWrapper aaw = null;
 	public Boolean keepAwake;
 	
     public CommonExtensionContext()
     {
-    	aaw = AndroidActivityWrapper.GetAndroidActivityWrapper();
+		AndroidActivityWrapper aaw = AndroidActivityWrapper.GetAndroidActivityWrapper();
         aaw.addActivityStateChangeListner( this );
     }
     
@@ -55,7 +54,7 @@ public class CommonExtensionContext extends FREContext implements CommonStateCha
 
 	@Override
 	public Map<String, FREFunction> getFunctions() {
-		Map<String, FREFunction> functions = new HashMap<String, FREFunction>();
+		Map<String, FREFunction> functions = new HashMap<>();
 		functions.put("init", new CommonFunctions.Init());
 		functions.put("getDeviceId", new CommonFunctions.GetDeviceId());
 		functions.put("getResourceString", new CommonFunctions.GetResourceString());
