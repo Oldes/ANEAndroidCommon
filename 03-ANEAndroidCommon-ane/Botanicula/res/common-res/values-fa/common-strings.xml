@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">بله</string>
+	<string name="no">خیر</string>
+	<string name="OK">قبول</string>
+	<string name="quitQuestion">آیا مطمئن هستید که می‌خواهید از بازی خارج شوید؟</string>
+	<string name="storagePermission">براي اجراي بازي دسترسي به حافظه را قبول كنيد.</string>
+	<string name="visitGame">%1$s</string>
+	<string name="visitWebsite">%1$s</string>
+	<string name="official">آیا می‌خواهید از سایت آمانیتا دیزاین دیدن کنید؟</string>
+	<string name="Facebook">آیا می‌خواهید از صفحه‌ی فیس‌بوک آمانیتا دیزاین دیدن کنید؟</string>
+	<string name="Twitter">آیا می‌خواهید از صفحه‌ی توییتر آمانیتا دیزاین دیدن کنید؟</string>
+	<string name="merchandise">ایا می‌خواهید از فروشگاه آمانیتا دیزاین دیدن کنید؟</string>
+	<string name="Machinarium">ماشیناریوم را در Google Play ببینید.</string>
+	<string name="Chuchel">CHUCHEL را در Google Play ببینید.</string>
+	<string name="Samorost">Samorost 3 را در Google Play ببینید.</string>
+	<string name="GPSignOut">آیا می‌خواهید Google Play بازی ها خارج شوید؟</string>
+	<string name="loginFailed">ورود ناموفق</string>
+	<string name="buyGame">خرید کامل Botanicula بازی در Google Play؟</string>
+</resources>

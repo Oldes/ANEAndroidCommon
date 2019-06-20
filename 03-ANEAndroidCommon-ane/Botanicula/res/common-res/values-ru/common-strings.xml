@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+	<string name="OK">OK</string>
+	<string name="quitQuestion">Действительно хочешь покинуть игру?</string>
+	<string name="storagePermission">Пожалуйста, предоставляйте \"Память\" разрешение на запуск Botanicula.</string>
+	<string name="visitGame">Посетить %1$s на Google Play?</string>
+	<string name="visitWebsite">Посетить %1$s Amanita Design?</string>
+	<string name="official">официальный сайт</string>
+	<string name="Facebook">Facebook страницу</string>
+	<string name="Twitter">Twitter страницу</string>
+	<string name="merchandise">магазин товаров</string>
+	<string name="Machinarium">Machinarium</string>
+	<string name="Chuchel">CHUCHEL (ЧУЧЕЛ)</string>
+	<string name="Samorost">Samorost 3</string>
+	<string name="GPSignOut">Выйти из услуг в Google Play Игры?</string>
+	<string name="loginFailed">Ошибка входа!</string>
+	<string name="buyGame">Купить полную игру Botanicula в Google Play?</string>
+</resources>

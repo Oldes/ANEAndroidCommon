@@ -1,3 +1,1 @@
-
-RD  /S /Q .\src\assets
-DEL /F /Q ANEAndroidCommon.ane
+@RD  /S /Q .\src\assets

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">Ano</string>
+	<string name="no">Ne</string>
+	<string name="OK">OK</string>
+	<string name="quitQuestion">Opravdu chcete ukončit hru?</string>
+	<string name="storagePermission">Ke spuštění hry Botanicula prosím povolte oprávnění \"Úložiště\".</string>
+	<string name="visitGame">Navštívit hru %1$s na Google Play?</string>
+	<string name="visitWebsite">Navštívit %1$s Amanita Design?</string>
+	<string name="official">oficiální stránku</string>
+	<string name="Facebook">Facebook stránku</string>
+	<string name="Twitter">Twitter stránku</string>
+	<string name="merchandise">merchandise obchod</string>
+	<string name="Machinarium">Machinarium</string>
+	<string name="Chuchel">CHUCHEL</string>
+	<string name="Samorost">Samorost 3</string>
+	<string name="GPSignOut">Odhlášení od služby Google Play Hry?</string>
+	<string name="loginFailed">Přihlášení selhalo!</string>
+	<string name="buyGame">Koupit celou hru Botanicula na Google Play?</string>
+</resources>

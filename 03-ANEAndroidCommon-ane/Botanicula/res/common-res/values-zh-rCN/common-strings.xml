@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="OK">确定</string>
+	<string name="quitQuestion">您确定要退出游戏吗？</string>
+	<string name="storagePermission">为了正常运行《植物精灵》，需要您同意游戏获取‘存储’权限。</string>
+	<string name="visitGame">在Google Play商店查看%1$s?</string>
+	<string name="visitWebsite">是否访问Amanita Design%1$s?</string>
+	<string name="official">的官方网站</string>
+	<string name="Facebook">的Facebook</string>
+	<string name="Twitter">的Twitter</string>
+	<string name="merchandise">的周边产品网站</string>
+	<string name="Machinarium">《机械迷城 (Machinarium)》</string>
+	<string name="Chuchel">《毛线先生(CHUCHEL)》</string>
+	<string name="Samorost">《银河历险记3 (Samorost 3)》</string>
+	<string name="GPSignOut">从\"Google Play游戏\"服务登出？</string>
+	<string name="loginFailed">登录失败！</string>
+	<string name="buyGame">在Google Play上购买完整的《植物精灵》游戏？</string>
+</resources>
