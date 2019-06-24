@@ -1,0 +1,1 @@
+put your adaptive assets here!

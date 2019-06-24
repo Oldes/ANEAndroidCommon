@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="OK">確定</string>
+	<string name="quitQuestion">您確定要結束遊戲嗎？</string>
+	<string name="storagePermission">為了正常運行《臉黑先生》，需要您同意遊戲獲取‘存儲’權限。</string>
+	<string name="visitGame">在Google Play商店查看%1$s?</string>
+	<string name="visitWebsite">是否訪問Amanita Design%1$s?</string>
+	<string name="official">的官方網站</string>
+	<string name="Facebook">的Facebook</string>
+	<string name="Twitter">的Twitter</string>
+	<string name="merchandise">的周邊產品網站</string>
+	<string name="Machinarium">《機械迷城 (Machinarium)》</string>
+	<string name="Botanicula">《植物精靈 (Botanicula)》</string>
+	<string name="Samorost">《銀河歷險記3 (Samorost 3)》</string>
+	<string name="GPSignOut">從\"Google Play遊戲\"服務登出？</string>
+	<string name="loginFailed">登錄失敗！</string>
+	<string name="buyGame">在Google Play上购买完整的《臉黑先生》游戏？</string>
+</resources>

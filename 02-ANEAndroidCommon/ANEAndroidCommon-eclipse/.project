@@ -30,4 +30,41 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>libs/animated-vector-drawable-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/animated-vector-drawable-27.1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/appcompat-v7-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/appcompat-v7-27.1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/support-compat-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/support-compat-27.1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/support-core-ui-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/support-core-ui-27.1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/support-core-utils-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/support-core-utils-27.1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/support-fragment-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/support-fragment-27.1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/support-vector-drawable-27.1.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/03-ANEAndroidCommon-ane/res-AppCompat/support-vector-drawable-27.1.1.jar</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

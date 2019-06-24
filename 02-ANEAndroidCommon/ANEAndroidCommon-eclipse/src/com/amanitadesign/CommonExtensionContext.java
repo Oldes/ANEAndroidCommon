@@ -59,6 +59,7 @@ public class CommonExtensionContext extends FREContext implements CommonStateCha
 		functions.put("init", new CommonFunctions.Init());
 		functions.put("getDeviceId", new CommonFunctions.GetDeviceId());
 		functions.put("getResourceString", new CommonFunctions.GetResourceString());
+		functions.put("getSDKInt", new CommonFunctions.GetSDKInt());
 		functions.put("showToast", new CommonFunctions.ShowToast());
 		functions.put("showAlertDialog", new CommonFunctions.ShowAlertDialog());
 		functions.put("keepAwake", new CommonFunctions.KeepAwake());

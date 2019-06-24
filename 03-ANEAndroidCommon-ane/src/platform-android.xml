@@ -1,4 +1,4 @@
-<platform xmlns="http://ns.adobe.com/air/extension/22.0"> 
+<platform xmlns="http://ns.adobe.com/air/extension/32.0"> 
     <packagedDependencies>
     </packagedDependencies> 
     <packagedResources>
@@ -7,10 +7,11 @@
             <packageName>com.amanitadesign</packageName> 
             <folderName>common-res</folderName> 
         </packagedResource>
-        <!--<packagedResource>
+        
+        <packagedResource>
             <packageName>com.amanitadesign</packageName> 
             <folderName>icon-res</folderName> 
-        </packagedResource>-->
+        </packagedResource>
         
     </packagedResources>
 </platform>

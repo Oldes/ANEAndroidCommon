@@ -83,6 +83,7 @@ package com.amanitadesign
 		
 		public function getDeviceId(): String { return extContext.call("getDeviceId") as String; }
 		public function getResourceString(id:String): String { return extContext.call("getResourceString", id) as String; }
+		public function getSDKInt(): int { return extContext.call("getSDKInt") as int; }
 		public function showToast(message:String, duration:int=0): Boolean { return extContext.call("showToast", message, duration) as Boolean; }
 		public function showAlertDialog(title:String = null, message:String = null): Boolean { return extContext.call("showAlertDialog", title, message) as Boolean; }
 		public function keepAwake(state:Boolean): void { extContext.call("keepAwake", state); }
