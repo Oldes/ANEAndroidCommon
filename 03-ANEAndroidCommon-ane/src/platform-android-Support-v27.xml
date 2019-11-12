@@ -1,4 +1,4 @@
-<platform xmlns="http://ns.adobe.com/air/extension/32.0"> 
+<platform xmlns="http://ns.adobe.com/air/extension/22.0"> 
     <packagedDependencies>
     	<packagedDependency>animated-vector-drawable-27.1.1.jar</packagedDependency>
         <packagedDependency>appcompat-v7-27.1.1.jar</packagedDependency>
