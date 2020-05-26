@@ -40,11 +40,12 @@
 			tf.defaultTextFormat = new TextFormat(null, 24);
 			addChild(tf);
 			
-			log("Testing Amanita Android ANE...");
+			log("Testing Amanita Android ANE...");	
 			log("AndroidCommon is supported: " + AndroidCommon.isSupported);
 			log("DeviceId: " + AndroidCommon.instance.getDeviceId());
 			log("Android API version: " + AndroidCommon.instance.getSDKInt());
 			log("Test getResourceString: " + AndroidCommon.instance.getResourceString("quitQuestion"));
+			log("Test getResourceString: " + AndroidCommon.instance.getResourceString("Samorost"));
 			log("\nPress BACK button to test the AlertDialog!");
 			
 			AndroidCommon.instance.keepAwake(true);
@@ -52,7 +53,8 @@
 			
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, onKey);
 			
-			AndroidCommon.instance.visitURLDialog("http://amanita-design.net", "visitWebsite", "official", "Test: ここから先はauスマートパス外となりますが!");
+			AndroidCommon.instance.visitURLDialog("http://amanita-design.net", "visitGame", "Samorost");
+			//AndroidCommon.instance.visitURLDialog("http://amanita-design.net", "visitWebsite", "official", "Test: ここから先はauスマートパス外となりますが!");
 		}
 		
 		private function onStateChanged(e:StateChangedEvent):void {

@@ -18,10 +18,12 @@ import android.widget.Toast;
 
 public class CommonFunctions {
 	static public int getResourceId(String name, String type) {
+		Log.d(CommonExtension.TAG, "getResourceId: "+name);
 		Resources res = CommonExtension.appContext.getResources();
 		return res.getIdentifier(name, type, CommonExtension.appContext.getPackageName());
 	}
 	static public String getResourceString(String id) {
+		Log.d(CommonExtension.TAG, "getResourceString: '"+id+"'");
 		Resources res = CommonExtension.appContext.getResources();
 		return res.getString(res.getIdentifier(id, "string", CommonExtension.appContext.getPackageName()));
 	}
