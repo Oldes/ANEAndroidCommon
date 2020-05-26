@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">예</string>
+	<string name="no">아니오</string>
+	<string name="OK">확인</string>
+	<string name="quitQuestion">정말로 게임을 종료하시겠습니까?</string>
+	<string name="storagePermission">Samorost 3(사모로스트 3) 실행하려면 \"저장\"권한을 부여하십시오.</string>
+	<string name="visitGame">Google Play의 %1$s 페이지를 꼭 봐주세요!</string>
+	<string name="visitWebsite">Amanita Design의%1$s를보고 싶습니까?</string>
+	<string name="official">공식 웹 사이트</string>
+	<string name="Facebook">Facebook 페이지</string>
+	<string name="Twitter">Twitter 페이지</string>
+	<string name="merchandise">상품 가게</string>
+	<string name="Machinarium">Machinarium (머시나리움)</string>
+	<string name="Botanicula">Botanicula (보타니큘라)</string>
+	<string name="Chuchel">Chuchel</string>
+	<string name="GPSignOut">Google Play 게임 서비스에서 로그 아웃 하시겠습니까?</string>
+	<string name="loginFailed">로그인 실패!</string>
+	<string name="buyGame">Google Play에서 Samorost 3 게임을 구매 하시겠습니까?</string>
+</resources>

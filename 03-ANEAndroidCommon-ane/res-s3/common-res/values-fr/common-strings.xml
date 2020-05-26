@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">Oui</string>
+	<string name="no">Non</string>
+	<string name="OK">OK</string>
+	<string name="quitQuestion">Voulez-vous vraiment quitter le jeu?</string>
+	<string name="storagePermission">Veuillez accorder la autorisation \"Stockage\" pour exécuter Samorost 3.</string>
+	<string name="visitGame">Visitez %1$s sur Google Play?</string>
+	<string name="visitWebsite">Visitez %1$s de Amanita Design?</string>
+	<string name="official">le site officiel</string>
+	<string name="Facebook">la page Facebook</string>
+	<string name="Twitter">la page Twitter</string>
+	<string name="merchandise">magasin de marchandises</string>
+	<string name="Machinarium">Machinarium</string>
+	<string name="Botanicula">Botanicula</string>
+	<string name="Chuchel">Chuchel</string>
+	<string name="GPSignOut">Se déconnecter des services Google Play Jeux?</string>
+	<string name="loginFailed">Échec de la connexion!</string>
+	<string name="buyGame">Achetez le jeu complet de Samorost 3 sur Google Play?</string>
+</resources>

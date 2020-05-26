@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yes">نعم</string>
+	<string name="no">لا</string>
+	<string name="OK">موافق</string>
+	<string name="quitQuestion">هل ترغب حقًا في الخروج من اللعبة؟</string>
+	<string name="storagePermission">يرجى منح \"التخزين\" الإذن لتشغيل Botanicula.</string>
+	<string name="visitGame">%1$s</string>
+	<string name="visitWebsite">زيارة %1$s الأمانيت ديزاين؟</string>
+	<string name="official">الموقع الرسمي</string>
+	<string name="Facebook">صفحة الفيسبوك</string>
+	<string name="Twitter">صفحة تويتر</string>
+	<string name="merchandise">متجر للبضائع</string>
+	<string name="Machinarium">زيارة Machinarium في Google Play؟</string>
+	<string name="Chuchel">زيارة CHUCHEL في Google Play؟</string>
+	<string name="Samorost">زيارة Samorost 3 في Google Play؟</string>
+	<string name="GPSignOut">تسجيل الخروج من خدمات ألعاب Google Play؟</string>
+	<string name="loginFailed">فشل تسجيل الدخول!</string>
+	<string name="buyGame">شراء كاملة لعبة Botanicula على Google Play؟</string>
+</resources>
